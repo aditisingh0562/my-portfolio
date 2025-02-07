@@ -1,0 +1,17 @@
+{
+    "name": "my-portfolio",
+    "version": "1.0.0",
+    "description": "A portfolio site for Aditi Singh",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "author": "Aditi Singh",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "nodemon": "^3.1.9"
+    }
+  }
+  

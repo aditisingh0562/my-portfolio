@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="myportfolio1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 id="greeting">Hello!</h1>
+        <button id="theme-toggle">Switch to Dark Mode</button>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="myprofile.jpg" alt="Profile Picture" class="profile-pic">
+        <p>👋 Hello! I'm Aditi Singh</p>
+        <p>I am a passionate Computer Science and Communication Engineering student at KIIT University. With a strong interest in coding and problem-solving, I love bringing ideas to life through technology.</p>
+
+        <p>🏀 Beyond Coding</p>
+        <p>When I'm not immersed in code, you'll find me on the basketball court, enjoying the game and teamwork that comes with it.</p>
+
+        <p>💻 Tech Stack</p>
+        <p>I have experience in multiple programming languages, including Java, Python, C, and C++. I am always eager to learn new technologies and refine my skills in web development and software engineering.</p>
+
+        <p>🚀 What Drives Me?</p>
+        <p>I have a flair for coding, logical thinking, and building efficient solutions. Whether it's writing clean code or exploring new frameworks, I enjoy the journey of continuous learning and innovation.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <img src="project1.jpg" alt="Project 1">
+            <p>A simple polling app.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="/send" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section id="contact-info">
+        <h2>Contact Info</h2>
+        <p><i class="fas fa-phone"></i> <a href="tel:7070196713">7070196713</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:aditisingh0562@gmail.com">aditisingh0562@gmail.com</a></p>
+        
+        <div class="social-links">
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/aditi-singh" target="_blank">LinkedIn</a></p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/aditisingh0562" target="_blank">GitHub</a></p>
+            <p><i class="fas fa-file-download"></i> <a href="https://drive.google.com/file/d/1RWwrX-LA6cW3EXwyxM1C5H8qC6ehxplK/view?usp=drive_link" download>Download Resume</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="myportfolio2.js"></script>
+</body>
+</html>
