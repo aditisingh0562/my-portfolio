@@ -150,6 +150,15 @@ body {
     body.dark-mode nav ul li a {
     color: #66c2ff;
     }
+    .project-card img {
+        width: 100%;  /* Makes image responsive */
+        max-width: 400px; /* Limits maximum width */
+        height: auto;  /* Maintains aspect ratio */
+        display: block;
+        margin: 10px auto; /* Centers the image */
+        border-radius: 10px; /* Optional: Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+    }
     
     /* Form Styling */
     form input, form textarea {
